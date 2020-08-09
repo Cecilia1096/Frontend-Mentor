@@ -1,0 +1,60 @@
+body{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../Frontend-Mentor/images/bg-intro-desktop.png);
+  background-color:  hsl(0, 100%, 74%);
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+main.container {
+  display: flex;
+  min-height: calc(100vh - 17px);
+  position: relative;
+  margin: 0 6% auto;
+}
+
+section.introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  width: 50%;
+  line-height: 25px;
+}
+
+section.introduction h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin-top: 10px;
+  line-height: 0px;
+}
+
+.sign-up > .cta-alert {
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 1rem;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  background: var(--blue);
+}
+
+
+.attribution { 
+ font-size: 11px; 
+ text-align: center;
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
