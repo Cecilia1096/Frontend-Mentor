@@ -72,7 +72,7 @@ function setSuccess(input) {
   warning.style.display = 'none';
 }
 
-// Check email validity
+// Checa la validación del email
 function isEmail(email) {
   return emailRegExp = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 }
